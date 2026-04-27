@@ -1,0 +1,216 @@
+/* src/pages/PostRequest.css */
+
+.post-page {
+  padding: 40px 0 60px;
+}
+
+.post-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 28px;
+  align-items: start;
+}
+
+/* ── Form Card ── */
+.post-form-card {
+  padding: 36px;
+}
+
+.post-form-header {
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-form-header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 6px;
+}
+
+.post-form-header p {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* ── Category Grid ── */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.category-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 8px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition);
+  text-align: center;
+}
+
+.category-option:hover {
+  border-color: var(--green);
+  background: var(--green-light);
+}
+
+.category-option.selected {
+  border-color: var(--green);
+  background: var(--green-light);
+  box-shadow: 0 0 0 3px rgba(26,107,60,0.12);
+}
+
+.cat-icon { font-size: 1.4rem; }
+
+.cat-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* ── Auto Urgent Notice ── */
+.auto-urgent-notice {
+  background: var(--red-light);
+  color: var(--red);
+  border: 1px solid rgba(192,57,43,0.2);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+  animation: fadeInUp 0.3s ease;
+}
+
+/* ── Urgent Toggle ── */
+.urgent-toggle-row {
+  background: var(--red-light);
+  border: 1px solid rgba(192,57,43,0.15);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+}
+
+.urgent-toggle-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.urgent-toggle-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--red);
+}
+
+.urgent-toggle-hint {
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+/* ── Submit Button ── */
+.submit-btn {
+  width: 100%;
+  justify-content: center;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: var(--radius);
+  margin-top: 4px;
+}
+
+/* ── Sidebar ── */
+.post-side {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.side-card {
+  padding: 20px;
+}
+
+.side-card h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+
+.side-card p {
+  font-size: 0.84rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.side-steps {
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.side-steps li {
+  font-size: 0.84rem;
+  color: var(--muted);
+}
+
+.tips-card ul {
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tips-card li {
+  font-size: 0.84rem;
+  color: var(--muted);
+}
+
+/* ── Success ── */
+.success-card {
+  max-width: 480px;
+  margin: 60px auto;
+  padding: 48px;
+  text-align: center;
+}
+
+.success-icon {
+  font-size: 3.5rem;
+  margin-bottom: 16px;
+}
+
+.success-card h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.success-card p {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.success-redirect {
+  font-size: 0.82rem !important;
+  margin-top: 16px;
+  color: var(--green) !important;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .post-layout {
+    grid-template-columns: 1fr;
+  }
+  .post-form-card { padding: 24px; }
+  .category-grid { grid-template-columns: repeat(3, 1fr); }
+  .post-side { display: none; } /* Hide sidebar on mobile to keep it clean */
+}
