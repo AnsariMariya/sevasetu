@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+🤝 SevaSetu
+A bridge between need and help
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SevaSetu is a simple platform built with one goal in mind
+connect people who need help with people who are ready to help
 
-## Available Scripts
+In many situations, help exists but it does not reach the right person at the right time. SevaSetu tries to reduce that gap by creating a space where requests can be posted, seen, and acted upon quickly.
 
-In the project directory, you can run:
+## What this project does
+Lets users post requests for help
+Allows volunteers to browse and respond to those requests
+Highlights urgent needs so they get attention faster
+Keeps everything simple and accessible so anyone can use it
 
-### `npm start`
+This is not just a tech project
+It is an attempt to make help more reachable
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Features
+🔐 Authentication using Firebase
+📝 Post help requests with details
+🚨 Urgent tagging system
+📋 Request listing dashboard
+🔍 Basic filtering and browsing
+📦 Expandable request cards for full details
+✅ Status tracking (Open, In Progress, Completed)
+⭐ Trust indicator for credibility
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
+Frontend: React.js
+Backend / Database: Firebase Firestore
+Authentication: Firebase Auth
+Hosting: Firebase Hosting
 
-### `npm test`
+## 🎯 Why we built this
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+During emergencies or even daily struggles, people often do not know where to ask for help. At the same time, many people are willing to help but do not know where they are needed.
+SevaSetu tries to solve this simple but important problem
+make help visible, accessible, and faster
 
-### `npm run build`
+## 💬 Final Note
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is still growing. It is not perfect yet, but it is built with intention.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If even one person gets help faster because of this, it is worth it.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+⭐ If you like this project
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give it a star, share feedback, or contribute ideas
