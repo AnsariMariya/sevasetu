@@ -10,8 +10,7 @@
 
 ## 🌍 About the Project
 
-SevaSetu is built with a simple goal  
-connect people who need help with people who are ready to help
+SevaSetu is built with a simple goal, connect people who need help with people who are ready to help.
 
 In many real-life situations, help exists but does not reach the right person at the right time.  
 SevaSetu creates a space where requests can be posted, seen, and acted upon quickly.
@@ -65,28 +64,7 @@ Simple flow. Real impact.
 
 ---
 
-## 📸 Screenshots
+## 💬 Final Note
 
-> Add your screenshots here (important for impact)
-
-### Home Page
-![Home](./screenshots/home.png)
-
-### Requests Dashboard
-![Dashboard](./screenshots/dashboard.png)
-
-### Post Request
-![Post](./screenshots/post.png)
-
-### Login / Signup
-![Login](./screenshots/login.png)
-
----
-
-## 🔗 Live Demo
-
-👉 https://your-firebase-link.web.app  
-
----
-
-## 📂 Project Structure
+This project is still growing. It is not perfect yet, but it is built with intention.
+If even one person gets help faster because of this, it is worth it.
