@@ -1,48 +1,92 @@
-## 🤝 SevaSetu
-A bridge between need and help
+# 🤝 SevaSetu  
+### A bridge between need and help
 
-SevaSetu is a simple platform built with one goal in mind
+![React](https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react)
+![Firebase](https://img.shields.io/badge/Backend-Firebase-orange?style=for-the-badge&logo=firebase)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+---
+
+## 🌍 About the Project
+
+SevaSetu is built with a simple goal  
 connect people who need help with people who are ready to help
 
-In many situations, help exists but it does not reach the right person at the right time. SevaSetu tries to reduce that gap by creating a space where requests can be posted, seen, and acted upon quickly.
+In many real-life situations, help exists but does not reach the right person at the right time.  
+SevaSetu creates a space where requests can be posted, seen, and acted upon quickly.
 
-## What this project does
-Lets users post requests for help
-Allows volunteers to browse and respond to those requests
-Highlights urgent needs so they get attention faster
-Keeps everything simple and accessible so anyone can use it
+---
 
-This is not just a tech project
-It is an attempt to make help more reachable
+## 🚀 What this project does
 
-## Key Features
-🔐 Authentication using Firebase <b>
-📝 Post help requests with details <b>
-🚨 Urgent tagging system <b>
-📋 Request listing dashboard <b>
-🔍 Basic filtering and browsing
-📦 Expandable request cards for full details
-✅ Status tracking (Open, In Progress, Completed)
-⭐ Trust indicator for credibility
+- Lets users post requests for help  
+- Allows volunteers to browse and respond  
+- Highlights urgent needs for faster attention  
+- Keeps the experience simple and accessible  
+
+This is not just a tech project. It is an attempt to make help more reachable.
+
+---
+
+## ✨ Key Features
+
+- 🔐 Authentication using Firebase  
+- 📝 Post help requests with details  
+- 🚨 Urgent tagging system  
+- 📋 Request listing dashboard  
+- 🔍 Basic filtering and browsing  
+- 📦 Expandable request cards  
+- ✅ Status tracking (Open, In Progress, Completed)  
+- ⭐ Trust indicator for credibility  
+
+---
+
+## 🧠 How it works
+
+1. A user posts a request  
+2. The request appears on the dashboard in real time  
+3. Volunteers browse and choose to help  
+4. The request gets updated as progress is made  
+
+Simple flow. Real impact.
+
+---
 
 ## 🛠️ Tech Stack
-Frontend: React.js
-Backend / Database: Firebase Firestore
-Authentication: Firebase Auth
-Hosting: Firebase Hosting
 
-## 🎯 Why we built this
+| Layer        | Technology        |
+|-------------|------------------|
+| Frontend     | React.js         |
+| Backend      | Firebase         |
+| Database     | Firestore        |
+| Auth         | Firebase Auth    |
+| Hosting      | Firebase Hosting |
 
-During emergencies or even daily struggles, people often do not know where to ask for help. At the same time, many people are willing to help but do not know where they are needed.
-SevaSetu tries to solve this simple but important problem
-make help visible, accessible, and faster
+---
 
-## 💬 Final Note
+## 📸 Screenshots
 
-This project is still growing. It is not perfect yet, but it is built with intention.
+> Add your screenshots here (important for impact)
 
-If even one person gets help faster because of this, it is worth it.
+### Home Page
+![Home](./screenshots/home.png)
 
-⭐ If you like this project
+### Requests Dashboard
+![Dashboard](./screenshots/dashboard.png)
 
-Give it a star, share feedback, or contribute ideas
+### Post Request
+![Post](./screenshots/post.png)
+
+### Login / Signup
+![Login](./screenshots/login.png)
+
+---
+
+## 🔗 Live Demo
+
+👉 https://your-firebase-link.web.app  
+
+---
+
+## 📂 Project Structure
