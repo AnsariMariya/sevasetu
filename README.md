@@ -2,9 +2,10 @@
 ### A bridge between need and help
 
 ![React](https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react)
+
 ![Firebase](https://img.shields.io/badge/Backend-Firebase-orange?style=for-the-badge&logo=firebase)
+
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
 
