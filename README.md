@@ -1,4 +1,4 @@
-🤝 SevaSetu
+## 🤝 SevaSetu
 A bridge between need and help
 
 SevaSetu is a simple platform built with one goal in mind
@@ -16,10 +16,10 @@ This is not just a tech project
 It is an attempt to make help more reachable
 
 ## Key Features
-🔐 Authentication using Firebase
-📝 Post help requests with details
-🚨 Urgent tagging system
-📋 Request listing dashboard
+🔐 Authentication using Firebase <b>
+📝 Post help requests with details <b>
+🚨 Urgent tagging system <b>
+📋 Request listing dashboard <b>
 🔍 Basic filtering and browsing
 📦 Expandable request cards for full details
 ✅ Status tracking (Open, In Progress, Completed)
